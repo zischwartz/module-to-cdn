@@ -214,5 +214,14 @@
         "production": "https://unpkg.com/zone.js@[version]/dist/zone.min.js"
       }
     }
+  },
+  "mapbox-gl": {
+    "var": "mapboxgl",
+    "versions": {
+      "*": {
+        "development": "https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.38.0/mapbox-gl-dev.js",
+        "production": "https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/0.38.0/mapbox-gl.js"
+      }
+    }
   }
 }
